@@ -1,0 +1,155 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	
+	width:99%;
+	height: 97%;
+	background:url(../image/irm.jpg);
+	background-size: cover;
+
+	
+}
+.top{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 80px;
+	align-items: center;
+	padding: 0px 40px;
+}
+.logo{
+	font-size: 30px;
+	color: white;
+	font-style:normal;
+font-family: "Pacifico", cursive;
+
+}
+.nav{
+	position: relative;
+	left: 180px;
+}
+a{
+	padding:5px 15px;
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+a:hover{
+	color: lightpink;
+	text-decoration: underline;
+	text-underline-position: under;
+	font-size: 30px;
+}
+.search{
+	font-size: 35px;
+}
+.search i{
+	padding: 5px 20px;
+} 
+
+.heading{
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 65px;
+	align-items: center;
+}
+.right{
+	width: 440px;
+	height: 440px;
+	background:url(../image/ifta.jpg);
+	background-size: cover;
+	border-radius: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.right::before{
+	width: 430px;
+	height: 430px;
+	border: 5px solid white;
+	content: '';
+	position: absolute;
+	border-radius: 430px;
+	padding: 10px;
+
+}
+
+.left p:nth-child(1){
+	color: darkred;
+	background-color: blanchedalmond;
+	border-radius: 10px;
+	font-size: 30px;
+	letter-spacing: 1px;
+	font-style: normal;
+	font-family:"Rakkas", serif;
+}
+
+.left h1{
+	font-size: 80px;
+	color: black;
+}
+.left p:nth-child(3){
+	background-color:white;
+	color:chocolate;
+	font-size: 40px;
+	font-style:normal;
+}
+
+.left button{
+	width: 200px;
+	height: 50px;
+	font-size: 20px;
+	border-radius: 20px;
+	border: 5px solid brown;
+	background-color: burlywood;
+	color: darkred;
+	margin: 20px 0px;
+	display: block;
+}
+
+.left button:hover{
+	background-color: brown;
+	color: black;
+	font-size: 25px;
+
+}
+
+.socialmedia{
+	font-size: 40px;
+	position: absolute;
+	padding-bottom: 10px;
+margin-top: 500px;
+display: flex;
+justify-content:space-around;
+align-items: center;
+flex-direction:row ;
+width: 300px;
+height: 50px;
+background-color: brown;
+border-radius: 20px;
+}
+
+.socialmedia i:hover{
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
